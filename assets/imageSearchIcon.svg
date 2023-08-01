@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 800 500" style="enable-background:new 0 0 800 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#EA4335;}
+	.st1{fill:#FBBC04;}
+	.st2{fill:#4285F4;}
+	.st3{fill:#34A853;}
+</style>
+<g>
+	<path class="st0" d="M250.8,156.4c0-30.6,24.9-55.6,55.6-55.6h47.5V43h-47.5C243.9,43,193,93.9,193,156.4v47.5h57.8V156.4z"/>
+	<path class="st1" d="M493.6,100.8c30.6,0,55.6,24.9,55.6,55.6v47.5H607v-47.5C607,93.9,556.1,43,493.6,43h-47.5v57.8H493.6z"/>
+	<path class="st2" d="M306.4,399.2c-30.6,0-55.6-24.9-55.6-55.6v-47.4H193v47.4c0,62.5,50.9,113.4,113.4,113.4h47.5v-57.8H306.4z"/>
+	<ellipse transform="matrix(0.7071 -0.7071 0.7071 0.7071 -59.6194 356.066)" class="st2" cx="400" cy="250" rx="80.3" ry="80.3"/>
+	<path class="st3" d="M584,388.4c0,25.3-20.5,45.8-45.8,45.8c-25.3,0-45.8-20.5-45.8-45.8c0-25.3,20.5-45.8,45.8-45.8
+		C563.4,342.7,584,363.2,584,388.4z"/>
+</g>
+</svg>
