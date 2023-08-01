@@ -1,13 +1,18 @@
 * {
   box-sizing: border-box;
   color: #f0eeee;
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
 }
 
 body {
   background-color: #3c4043;
+  overflow: hidden;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /* Header */
@@ -62,3 +67,87 @@ li a:hover {
   text-decoration: underline;
 }
 /* Header */
+
+/* SearchBar */
+.searchLogo {
+  height: 92px;
+  width: 272px;
+}
+
+.search-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 68vh;
+  margin-top: 100px;
+}
+
+form {
+  padding-top: 25px;
+  position: relative;
+}
+
+input {
+  border-radius: 46px;
+  border: 1px solid #5f6368;
+  color: #333;
+  font-size: 20px;
+  height: 50px;
+  margin-bottom: 20px;
+  padding-left: 40px;
+  width: 600px;
+}
+
+input:hover {
+  box-shadow: 0 1px 3px 1px (200, 200, 200, 0.8);
+}
+
+input:focus {
+  outline: none;
+}
+
+.searchIcon {
+  left: 18px;
+  position: absolute;
+  top: 38px;
+  width: 20px;
+}
+
+.voiceSearchIcon {
+  cursor: pointer;
+  left: 505px;
+  position: absolute;
+  top: 38px;
+  width: 38px;
+}
+
+.ImageSearchIcon {
+  cursor: pointer;
+  left: 545px;
+  position: absolute;
+  top: 38px;
+  width: 38px;
+}
+
+button {
+  background-color: #333;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  color: #f7f8fa;
+  padding: 8px 12px;
+}
+
+button:hover {
+  border: 0.2px solid #989898;
+  box-shadow: inset 0px 0.5px 0.5px #989898;
+  cursor: pointer;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin: 0 auto;
+  width: 310px;
+}
+/* SearchBar */
